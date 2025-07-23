@@ -26,7 +26,7 @@ const Todo = () => {
             <div className="bg-white shadow-lg rounded-3xl p-16">
                 <h1 className='text-3xl font-bold text-center text-gray-900 mb-6 '>REACT TODO LIST </h1>
                 <div className='flex justify-between'>
-                    <i class="bi bi-journal-text"></i>
+                    <i class="bi bi-journal-text text-3xl text-blue-600"></i>
                     <select value={filter} onChange={(e) => setFilter(e.target.value)}
                         className='ml-50 mb-5 bg-gradient-to-r from-blue-600 to-emerald-400 p-2 rounded-[10px] text-gray-800'>
                         <option className='bg-blue-200' value="all">All</option>
